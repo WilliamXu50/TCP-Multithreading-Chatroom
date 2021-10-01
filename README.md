@@ -16,6 +16,6 @@ closed (either by literally closing the terminal or killing the process), the TC
 # How to Run:
 - In the project directory, run `make`. 
 - This will compile `tcp_server.c` and `tcp_client.c` and create executables `server` and `client` respectively
-- Run `./server` to create a server
+- Run `./server` to create a server (Very Important: create a server terminal first, otherwise the clients will have nothing to connect to!)
 - Then open up new terminals, navigate to the project directory and run `./client` for each (right now, maximum of 5 clients supported)
 - Done! Now the terminals can communicate with each other in a public chatroom style.
