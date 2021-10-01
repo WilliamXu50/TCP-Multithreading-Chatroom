@@ -6,7 +6,7 @@ course (last chapter regarding networking in Linux). The program has 2 source fi
 # Basic Design:
 One terminal will compile and run `tcp_server.c`. This terminal will act as the server in the TCP network.
 The user can open multiple terminals and run the `tcp_client.c` executables. These terminals will act as the clients of the TCP network.
-The maximum number of clients (terminals running `tcp_client.c`) is defined in the source code. If this count is succeeded, the new client 
+The maximum number of clients (terminals running `tcp_client.c`) is defined in the source code. If this count is exceeded, the new client 
 will be rejected. 
 
 Now the TCP chatroom is setup. The server will handle accepting all connections as well as redirecting messages from one client to all others.
