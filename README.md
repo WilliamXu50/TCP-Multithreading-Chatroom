@@ -13,3 +13,9 @@ Now the TCP chatroom is setup. The server will handle accepting all connections 
 One client terminal can send text messages to all other client terminals, and so on. If the server terminal is 
 closed (either by literally closing the terminal or killing the process), the TCP network will be broken.
 
+# How to Run:
+- In the project directory, run `make`. 
+- This will compile `tcp_server.c` and `tcp_client.c` and create executables `server` and `client` respectively
+- Run `./server` to create a server
+- Then open up new terminals, navigate to the project directory and run `./client` for each (right now, maximum of 5 clients supported)
+- Done! Now the terminals can communicate with each other in a public chatroom style.
